@@ -1,0 +1,6 @@
+@font-face { font-family: 'Playfair Display'; src: url('/fonts/playfair-display-latin-variable.woff2') format('woff2'); font-style: normal; font-weight: 400 600; font-display: swap; }
+@font-face { font-family: 'Playfair Display'; src: url('/fonts/playfair-display-latin-italic-variable.woff2') format('woff2'); font-style: italic; font-weight: 400 600; font-display: swap; }
+@font-face { font-family: 'Inter'; src: url('/fonts/inter-latin-variable.woff2') format('woff2'); font-style: normal; font-weight: 400 700; font-display: swap; }
+html, body, #root { min-height: 100%; margin: 0; }
+body { font-family: 'Inter', Arial, sans-serif; font-synthesis: none; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
